@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    background-image: url("https://th.bing.com/th/id/R.02c548e401c9cf8d5a751e5325ee766f?rik=3mx50NoNILlLtw&riu=http%3a%2f%2fwww.motownrecords.com%2fwp-content%2fthemes%2fmotownrecords%2ffiles%2fimages%2fslider-spacer.jpg&ehk=GwZB1JmG3epbKjFbePhQOxD58e5IMjZtN%2b%2f9FLOnao4%3d&risl=&pid=ImgRaw&r=0");
+     background-image: cover;
+ }
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+nav p {
+    font-family: tahoma;
+    color: #222;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: left; 
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: tahoma;
+    color: #222;
+    font-size: 14px;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 10px 14px;   
+}
+
+nav ul li ul li a:hover{
+    background-color: #f3f3f3
+
+
+}
+
